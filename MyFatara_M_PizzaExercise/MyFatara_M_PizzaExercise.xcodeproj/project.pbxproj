@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF9F70E24D8D8C60096F42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F70D24D8D8C60096F42A /* AppDelegate.swift */; };
+		CCF9F71024D8D8C60096F42A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F70F24D8D8C60096F42A /* SceneDelegate.swift */; };
+		CCF9F71224D8D8C60096F42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F71124D8D8C60096F42A /* ViewController.swift */; };
+		CCF9F71524D8D8C60096F42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F71324D8D8C60096F42A /* Main.storyboard */; };
+		CCF9F71724D8D8C70096F42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F71624D8D8C70096F42A /* Assets.xcassets */; };
+		CCF9F71A24D8D8C70096F42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F71824D8D8C70096F42A /* LaunchScreen.storyboard */; };
+		CCF9F72524D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F72424D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.swift */; };
+		CCF9F73024D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9F72F24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.swift */; };
+		CCF9F73E24D8DAC20096F42A /* kindpng_3565978.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF9F73D24D8DAC20096F42A /* kindpng_3565978.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF9F72124D8D8C70096F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF9F70224D8D8C60096F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF9F70924D8D8C60096F42A;
+			remoteInfo = MyFatara_M_PizzaExercise;
+		};
+		CCF9F72C24D8D8C70096F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF9F70224D8D8C60096F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF9F70924D8D8C60096F42A;
+			remoteInfo = MyFatara_M_PizzaExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF9F70A24D8D8C60096F42A /* MyFatara_M_PizzaExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFatara_M_PizzaExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F70D24D8D8C60096F42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF9F70F24D8D8C60096F42A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCF9F71124D8D8C60096F42A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF9F71424D8D8C60096F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF9F71624D8D8C70096F42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF9F71924D8D8C70096F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF9F71B24D8D8C70096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F72024D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_PizzaExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F72424D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_PizzaExerciseTests.swift; sourceTree = "<group>"; };
+		CCF9F72624D8D8C70096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F72B24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFatara_M_PizzaExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9F72F24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFatara_M_PizzaExerciseUITests.swift; sourceTree = "<group>"; };
+		CCF9F73124D8D8C70096F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF9F73D24D8DAC20096F42A /* kindpng_3565978.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kindpng_3565978.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF9F70724D8D8C60096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F71D24D8D8C70096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F72824D8D8C70096F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF9F70124D8D8C60096F42A = {
+			isa = PBXGroup;
+			children = (
+				CCF9F70C24D8D8C60096F42A /* MyFatara_M_PizzaExercise */,
+				CCF9F72324D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests */,
+				CCF9F72E24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests */,
+				CCF9F70B24D8D8C60096F42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF9F70B24D8D8C60096F42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F70A24D8D8C60096F42A /* MyFatara_M_PizzaExercise.app */,
+				CCF9F72024D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.xctest */,
+				CCF9F72B24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF9F70C24D8D8C60096F42A /* MyFatara_M_PizzaExercise */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F70D24D8D8C60096F42A /* AppDelegate.swift */,
+				CCF9F70F24D8D8C60096F42A /* SceneDelegate.swift */,
+				CCF9F71124D8D8C60096F42A /* ViewController.swift */,
+				CCF9F71324D8D8C60096F42A /* Main.storyboard */,
+				CCF9F73D24D8DAC20096F42A /* kindpng_3565978.png */,
+				CCF9F71624D8D8C70096F42A /* Assets.xcassets */,
+				CCF9F71824D8D8C70096F42A /* LaunchScreen.storyboard */,
+				CCF9F71B24D8D8C70096F42A /* Info.plist */,
+			);
+			path = MyFatara_M_PizzaExercise;
+			sourceTree = "<group>";
+		};
+		CCF9F72324D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F72424D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.swift */,
+				CCF9F72624D8D8C70096F42A /* Info.plist */,
+			);
+			path = MyFatara_M_PizzaExerciseTests;
+			sourceTree = "<group>";
+		};
+		CCF9F72E24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF9F72F24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.swift */,
+				CCF9F73124D8D8C70096F42A /* Info.plist */,
+			);
+			path = MyFatara_M_PizzaExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF9F70924D8D8C60096F42A /* MyFatara_M_PizzaExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F73424D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExercise" */;
+			buildPhases = (
+				CCF9F70624D8D8C60096F42A /* Sources */,
+				CCF9F70724D8D8C60096F42A /* Frameworks */,
+				CCF9F70824D8D8C60096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFatara_M_PizzaExercise;
+			productName = MyFatara_M_PizzaExercise;
+			productReference = CCF9F70A24D8D8C60096F42A /* MyFatara_M_PizzaExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF9F71F24D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F73724D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExerciseTests" */;
+			buildPhases = (
+				CCF9F71C24D8D8C70096F42A /* Sources */,
+				CCF9F71D24D8D8C70096F42A /* Frameworks */,
+				CCF9F71E24D8D8C70096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF9F72224D8D8C70096F42A /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_PizzaExerciseTests;
+			productName = MyFatara_M_PizzaExerciseTests;
+			productReference = CCF9F72024D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF9F72A24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF9F73A24D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExerciseUITests" */;
+			buildPhases = (
+				CCF9F72724D8D8C70096F42A /* Sources */,
+				CCF9F72824D8D8C70096F42A /* Frameworks */,
+				CCF9F72924D8D8C70096F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF9F72D24D8D8C70096F42A /* PBXTargetDependency */,
+			);
+			name = MyFatara_M_PizzaExerciseUITests;
+			productName = MyFatara_M_PizzaExerciseUITests;
+			productReference = CCF9F72B24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF9F70224D8D8C60096F42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fatara Muhammad";
+				TargetAttributes = {
+					CCF9F70924D8D8C60096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CCF9F71F24D8D8C70096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF9F70924D8D8C60096F42A;
+					};
+					CCF9F72A24D8D8C70096F42A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CCF9F70924D8D8C60096F42A;
+					};
+				};
+			};
+			buildConfigurationList = CCF9F70524D8D8C60096F42A /* Build configuration list for PBXProject "MyFatara_M_PizzaExercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF9F70124D8D8C60096F42A;
+			productRefGroup = CCF9F70B24D8D8C60096F42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF9F70924D8D8C60096F42A /* MyFatara_M_PizzaExercise */,
+				CCF9F71F24D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests */,
+				CCF9F72A24D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF9F70824D8D8C60096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F71A24D8D8C70096F42A /* LaunchScreen.storyboard in Resources */,
+				CCF9F71724D8D8C70096F42A /* Assets.xcassets in Resources */,
+				CCF9F71524D8D8C60096F42A /* Main.storyboard in Resources */,
+				CCF9F73E24D8DAC20096F42A /* kindpng_3565978.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F71E24D8D8C70096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F72924D8D8C70096F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF9F70624D8D8C60096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F71224D8D8C60096F42A /* ViewController.swift in Sources */,
+				CCF9F70E24D8D8C60096F42A /* AppDelegate.swift in Sources */,
+				CCF9F71024D8D8C60096F42A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F71C24D8D8C70096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F72524D8D8C70096F42A /* MyFatara_M_PizzaExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF9F72724D8D8C70096F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF9F73024D8D8C70096F42A /* MyFatara_M_PizzaExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF9F72224D8D8C70096F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF9F70924D8D8C60096F42A /* MyFatara_M_PizzaExercise */;
+			targetProxy = CCF9F72124D8D8C70096F42A /* PBXContainerItemProxy */;
+		};
+		CCF9F72D24D8D8C70096F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF9F70924D8D8C60096F42A /* MyFatara_M_PizzaExercise */;
+			targetProxy = CCF9F72C24D8D8C70096F42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF9F71324D8D8C60096F42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF9F71424D8D8C60096F42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF9F71824D8D8C70096F42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF9F71924D8D8C70096F42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF9F73224D8D8C70096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF9F73324D8D8C70096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF9F73524D8D8C70096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF9F73624D8D8C70096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCF9F73824D8D8C70096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_PizzaExercise.app/MyFatara_M_PizzaExercise";
+			};
+			name = Debug;
+		};
+		CCF9F73924D8D8C70096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExerciseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFatara_M_PizzaExercise.app/MyFatara_M_PizzaExercise";
+			};
+			name = Release;
+		};
+		CCF9F73B24D8D8C70096F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_PizzaExercise;
+			};
+			name = Debug;
+		};
+		CCF9F73C24D8D8C70096F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFatara_M_PizzaExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "genesysworks.MyFatara-M-PizzaExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFatara_M_PizzaExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF9F70524D8D8C60096F42A /* Build configuration list for PBXProject "MyFatara_M_PizzaExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F73224D8D8C70096F42A /* Debug */,
+				CCF9F73324D8D8C70096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F73424D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F73524D8D8C70096F42A /* Debug */,
+				CCF9F73624D8D8C70096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F73724D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F73824D8D8C70096F42A /* Debug */,
+				CCF9F73924D8D8C70096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF9F73A24D8D8C70096F42A /* Build configuration list for PBXNativeTarget "MyFatara_M_PizzaExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF9F73B24D8D8C70096F42A /* Debug */,
+				CCF9F73C24D8D8C70096F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF9F70224D8D8C60096F42A /* Project object */;
+}
